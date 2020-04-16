@@ -1,6 +1,6 @@
 const { Router } = require('express')
 const { Todos,Notes } = require('../db')
-const { Op } = require('Sequelize')
+const { Op } = require('sequelize')
 
 const route = Router()
 
